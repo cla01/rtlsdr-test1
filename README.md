@@ -45,7 +45,7 @@ Frequency offsets [F1, F2]:    2365,      0     (+36.1 kHz, +0.0 kHz)
 Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
 ```
 
-	:point_right: 	:point_right: 	:point_right: __I put some of those signals into [signals folder](signals) in the repo, as well as the [full log](logs) for more information__.
+:point_right: 	:point_right: 	:point_right: __I put some of those signals into [signals folder](signals) in the repo, as well as the [full log](logs) for more information__.
 
 ### First attempt at analyzing the signal _(not too successful)_
 
