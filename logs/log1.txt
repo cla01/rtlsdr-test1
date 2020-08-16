@@ -1,0 +1,219 @@
+C:\Users\dell6\go\rtl_433-20.02-win-x64>rtl_433 -f 451.875M -s 1000k -A -R 0 -S all -T 3600
+rtl_433 version 20.02 branch  at 202002171252 inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "C:\Users\dell6\go\rtl_433-20.02-win-x64\rtl_433.conf"...
+Trying conf file at "C:\Users\dell6\AppData\Local\rtl_433\rtl_433.conf"...
+Trying conf file at "C:\ProgramData\rtl_433\rtl_433.conf"...
+Disabling all device decoders.
+Registered 0 out of 149 device decoding protocols [ ]
+Found Rafael Micro R820T tuner
+Exact sample rate is: 1000000.026491 Hz
+[R82XX] PLL not locked!
+Sample rate set to 1000000 S/s.
+Tuner gain set to Auto.
+Tuned to 451.875MHz.
+Detected OOK package    2020-08-16 01:30:48
+Analyzing pulses...
+Total count:    1,  width: 0.01 ms              (   14 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   14 us [14;14]      (  14 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15219,   2729
+RSSI: -0.3 dB SNR: 7.5 dB Noise: -7.8 dB
+Frequency offsets [F1, F2]:    1562,      0     (+23.8 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g001_451.875M_1000k.cu8 (42783 samples, 131072 bytes)
+Detected OOK package    2020-08-16 01:31:09
+Analyzing pulses...
+Total count:    2,  width: 0.45 ms              (  454 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   15 us [15;15]      (  15 S)
+ [ 1] count:    1,  width:   11 us [11;11]      (  11 S)
+Gap width distribution:
+ [ 0] count:    1,  width:  428 us [428;428]    ( 428 S)
+Pulse period distribution:
+ [ 0] count:    1,  width:  443 us [443;443]    ( 443 S)
+Level estimates [high, low]:  14362,   4020
+RSSI: -0.6 dB SNR: 5.5 dB Noise: -6.1 dB
+Frequency offsets [F1, F2]:    2605,      0     (+39.8 kHz, +0.0 kHz)
+Guessing modulation: Pulse Width Modulation with fixed gap
+Attempting demodulation... short_width: 11, long_width: 15, reset_limit: 429, sync_width: 0
+Use a flex decoder with -X 'n=name,m=OOK_PWM,s=11,l=15,r=429,g=0,t=1,y=0'
+pulse_demod_pwm(): Analyzer Device
+bitbuffer:: Number of rows: 1
+[00] { 2} 40        : 01
+
+Detected OOK package    2020-08-16 01:31:09
+Analyzing pulses...
+Total count:    2,  width: 4.24 ms              ( 4236 S)
+Pulse width distribution:
+ [ 0] count:    2,  width:   12 us [11;13]      (  12 S)
+Gap width distribution:
+ [ 0] count:    1,  width: 4212 us [4212;4212]  (4212 S)
+Pulse period distribution:
+ [ 0] count:    1,  width: 4223 us [4223;4223]  (4223 S)
+Level estimates [high, low]:  14626,   4080
+RSSI: -0.5 dB SNR: 5.5 dB Noise: -6.0 dB
+Frequency offsets [F1, F2]:    2236,      0     (+34.1 kHz, +0.0 kHz)
+Guessing modulation: Un-modulated signal. Maybe a preamble...
+
+*** Saving signal to file g002_451.875M_1000k.cu8 (76795 samples, 262144 bytes)
+Detected OOK package    2020-08-16 01:32:47
+Analyzing pulses...
+Total count:    1,  width: 0.01 ms              (   10 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   10 us [10;10]      (  10 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15531,   3795
+RSSI: -0.2 dB SNR: 6.1 dB Noise: -6.4 dB
+Frequency offsets [F1, F2]:    1017,      0     (+15.5 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g003_451.875M_1000k.cu8 (42779 samples, 131072 bytes)
+Detected OOK package    2020-08-16 01:37:51
+Analyzing pulses...
+Total count:    1,  width: 0.01 ms              (   11 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   11 us [11;11]      (  11 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15438,   2879
+RSSI: -0.3 dB SNR: 7.3 dB Noise: -7.6 dB
+Frequency offsets [F1, F2]:    1076,      0     (+16.4 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g004_451.875M_1000k.cu8 (42780 samples, 131072 bytes)
+Detected OOK package    2020-08-16 01:38:36
+Analyzing pulses...
+Total count:    1,  width: 3.39 ms              ( 3391 S)
+Pulse width distribution:
+ [ 0] count:    1,  width: 3391 us [3391;3391]  (3391 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:   5379,   2400
+RSSI: -4.8 dB SNR: 3.5 dB Noise: -8.3 dB
+Frequency offsets [F1, F2]:    5202,      0     (+79.4 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g005_451.875M_1000k.cu8 (70070 samples, 262144 bytes)
+Detected OOK package    2020-08-16 01:38:40
+Analyzing pulses...
+Total count:    1,  width: 0.01 ms              (   11 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   11 us [11;11]      (  11 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15336,   2877
+RSSI: -0.3 dB SNR: 7.3 dB Noise: -7.6 dB
+Frequency offsets [F1, F2]:    1080,      0     (+16.5 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g006_451.875M_1000k.cu8 (42780 samples, 131072 bytes)
+Detected OOK package    2020-08-16 01:40:35
+Analyzing pulses...
+Total count:    1,  width: 0.01 ms              (   10 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   10 us [10;10]      (  10 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15527,   4127
+RSSI: -0.2 dB SNR: 5.8 dB Noise: -6.0 dB
+Frequency offsets [F1, F2]:     967,      0     (+14.8 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g007_451.875M_1000k.cu8 (42779 samples, 131072 bytes)
+Detected OOK package    2020-08-16 01:44:23
+Analyzing pulses...
+Total count:    1,  width: 0.01 ms              (   11 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   11 us [11;11]      (  11 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15474,   2508
+RSSI: -0.2 dB SNR: 7.9 dB Noise: -8.2 dB
+Frequency offsets [F1, F2]:    1088,      0     (+16.6 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g008_451.875M_1000k.cu8 (42780 samples, 131072 bytes)
+Detected OOK package    2020-08-16 01:44:23
+Analyzing pulses...
+Total count:    1,  width: 0.01 ms              (   12 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   12 us [12;12]      (  12 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15275,   3180
+RSSI: -0.3 dB SNR: 6.8 dB Noise: -7.1 dB
+Frequency offsets [F1, F2]:    1224,      0     (+18.7 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g009_451.875M_1000k.cu8 (42781 samples, 131072 bytes)
+Detected OOK package    2020-08-16 01:49:03
+Analyzing pulses...
+Total count:    1,  width: 0.01 ms              (   11 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   11 us [11;11]      (  11 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15518,   2900
+RSSI: -0.2 dB SNR: 7.3 dB Noise: -7.5 dB
+Frequency offsets [F1, F2]:    1253,      0     (+19.1 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g010_451.875M_1000k.cu8 (42780 samples, 131072 bytes)
+Detected OOK package    2020-08-16 01:53:24
+Analyzing pulses...
+Total count:    1,  width: 0.01 ms              (   13 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   13 us [13;13]      (  13 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15527,   2911
+RSSI: -0.2 dB SNR: 7.3 dB Noise: -7.5 dB
+Frequency offsets [F1, F2]:    1679,      0     (+25.6 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g011_451.875M_1000k.cu8 (42782 samples, 131072 bytes)
+Detected OOK package    2020-08-16 01:55:04
+Analyzing pulses...
+Total count:    1,  width: 0.01 ms              (   10 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   10 us [10;10]      (  10 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15568,   3467
+RSSI: -0.2 dB SNR: 6.5 dB Noise: -6.7 dB
+Frequency offsets [F1, F2]:     969,      0     (+14.8 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g012_451.875M_1000k.cu8 (42779 samples, 131072 bytes)
+Detected OOK package    2020-08-16 01:55:16
+Analyzing pulses...
+Total count:    1,  width: 0.02 ms              (   19 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   19 us [19;19]      (  19 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15135,   6227
+RSSI: -0.3 dB SNR: 3.9 dB Noise: -4.2 dB
+Frequency offsets [F1, F2]:    2365,      0     (+36.1 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g013_451.875M_1000k.cu8 (42788 samples, 131072 bytes)
+Detected OOK package    2020-08-16 01:55:43
+Analyzing pulses...
+Total count:    1,  width: 0.01 ms              (   11 S)
+Pulse width distribution:
+ [ 0] count:    1,  width:   11 us [11;11]      (  11 S)
+Gap width distribution:
+Pulse period distribution:
+Level estimates [high, low]:  15385,   2666
+RSSI: -0.3 dB SNR: 7.6 dB Noise: -7.9 dB
+Frequency offsets [F1, F2]:    1101,      0     (+16.8 kHz, +0.0 kHz)
+Guessing modulation: Single pulse detected. Probably Frequency Shift Keying or just noise...
+
+*** Saving signal to file g014_451.875M_1000k.cu8 (42780 samples, 131072 bytes)
+Signal caught, exiting!
